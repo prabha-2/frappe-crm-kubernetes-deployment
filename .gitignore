@@ -1,0 +1,41 @@
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+secrets.yaml
+secret.yaml
+kubeconfig
+.kube/
+
+# Kubernetes local files
+*.log
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+crash.log
+override.tf
+override.tf.json
+
+# SSH keys
+id_rsa
+id_ed25519
+
+# OS-generated files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Editor files
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
